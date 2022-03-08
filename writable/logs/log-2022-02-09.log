@@ -1,0 +1,7 @@
+CRITICAL - 2022-02-09 19:43:24 --> Class 'App\Models\User_model' not found
+#0 C:\ukk 2022\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\ukk 2022\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\ukk 2022\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\ukk 2022\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\ukk 2022\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('C:\\ukk 2022\\cod...')
+#5 {main}
